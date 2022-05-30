@@ -32,6 +32,18 @@ hr {
   background: black;
 }
 
-iframe {
-  
+.award {
+  width: 500px;
+}
+
+.caption, .sponsors {
+  font-style: italic;
+}
+
+li {
+  text-align: left;
+}
+
+.sponsor-img {
+  height: 100px;
 }

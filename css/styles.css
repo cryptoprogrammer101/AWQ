@@ -3,7 +3,11 @@
   color: #fff;
 }
 
-h1, h3, .bold {
+.title {
+  margin-left: 100px;
+}
+
+.bold {
   font-weight: bold;
 }
 
@@ -20,4 +24,14 @@ h1, h3, .bold {
 
 .flyer {
   width: 700px;
+}
+
+hr {
+  border: none;
+  height: 5px;
+  background: black;
+}
+
+iframe {
+  
 }

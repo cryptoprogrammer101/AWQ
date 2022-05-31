@@ -1,29 +1,8 @@
-.colored {
-  background-color: #2d8ebf;
-  color: #fff;
-}
-
-.title {
-  margin-left: 100px;
-}
-
-.bold {
-  font-weight: bold;
-}
-
 .body {
   width: 1200px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-.red {
-  color: red;
-}
-
-.flyer {
-  width: 700px;
 }
 
 hr {
@@ -32,32 +11,67 @@ hr {
   background: black;
 }
 
-.award {
-  width: 500px;
+h1.red:hover {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-.italic {
-  font-style: italic;
+span.hover-txt:hover {
+  background-color: #ff0;
 }
 
-li {
-  text-align: left;
-}
-
-.sponsor-img {
-  height: 100px;
-}
-
-.bottom-navbar {
-  font-size: 20px;
+/* Backgrounds */
+.colored {
+  background-color: #2d8ebf;
+  color: #fff;
 }
 
 .footer {
   background-color: #cfe3f1;
 }
 
+/* Fonts */
+
+.bold {
+  font-weight: bold;
+}
+
+.red {
+  color: #f00;
+}
+
+.title {
+  margin-left: 100px;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .copyright {
   font-size:12px;
+}
+
+.bottom-navbar {
+  font-size: 20px;
+}
+
+li {
+  text-align: left;
+}
+
+/* Images */
+
+.flyer {
+  width: 700px;
+}
+
+.award {
+  width: 500px;
+}
+
+.sponsor-img {
+  height: 100px;
 }
 
 .footer-img {

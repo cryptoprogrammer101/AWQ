@@ -36,7 +36,7 @@ hr {
   width: 500px;
 }
 
-.caption, .sponsors {
+.italic {
   font-style: italic;
 }
 
@@ -46,4 +46,20 @@ li {
 
 .sponsor-img {
   height: 100px;
+}
+
+.bottom-navbar {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #cfe3f1;
+}
+
+.copyright {
+  font-size:12px;
+}
+
+.footer-img {
+  width: 150px;
 }

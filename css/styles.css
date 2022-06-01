@@ -42,7 +42,7 @@ h1:hover, h2:hover, h3:hover {
   text-decoration: underline;
 }
 
-header:hover {
+header h3:hover {
   text-decoration: none;
 }
 

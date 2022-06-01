@@ -1,67 +1,86 @@
-.body {
-  width: 1200px;
+body {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 2;
+}
+
+header, footer {
+  font-family: "Ubuntu", sans-serif;
+}
+
+section {
+  width: 70%;
+  margin: auto;
 }
 
 hr {
-  border: none;
-  height: 5px;
-  background: black;
+  border: 10px dotted #63B4B8;
+  border-top: none;
 }
 
-h1.red:hover {
-  font-weight: bold;
-  text-decoration: underline;
+header {
+  width: 100%;
+  margin-left: 0;
+  background-color: #5C7AEA;
+  color: #fff;
+  text-align: left;
+  font-weight: 700;
 }
 
-span.hover-txt:hover {
+footer {
+  background-color: #cfe3f1;
+  font-weight: 400;
+}
+
+/* Hover */
+.ambassador-txt:hover {
   background-color: #ff0;
 }
 
-/* Backgrounds */
-.colored {
-  background-color: #2d8ebf;
-  color: #fff;
+h1:hover, h2:hover, h3:hover {
+  text-decoration: underline;
 }
 
-.footer {
-  background-color: #cfe3f1;
+header:hover {
+  text-decoration: none;
 }
 
 /* Fonts */
+h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
 
-.bold {
-  font-weight: bold;
+.bold, h2, h3, h4, h6 {
+  font-weight: 700;
 }
 
 .red {
   color: #f00;
 }
 
-.title {
-  margin-left: 100px;
+header h3 {
+  margin-left: 300px;
 }
 
-.italic {
+.italic, figcaption {
   font-style: italic;
-}
-
-.copyright {
-  font-size:12px;
-}
-
-.bottom-navbar {
-  font-size: 20px;
 }
 
 li {
   text-align: left;
 }
 
-/* Images */
+.details {
+  text-align: right;
+}
 
+.ambassador-heading {
+  font-weight: 400;
+}
+
+/* Images */
 .flyer {
   width: 700px;
 }
